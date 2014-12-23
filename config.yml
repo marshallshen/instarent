@@ -1,0 +1,10 @@
+city: chicago
+bathrooms: 1
+bedrooms: 2
+min_price: 1200
+max_price: 2400
+result_size: 20
+recepients:
+  - shen.marshall@gmail.com
+  - brian.dellabetta@gmail.com
+

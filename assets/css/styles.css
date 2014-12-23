@@ -1,0 +1,141 @@
+﻿/*	====================================================
+	general styles
+	==================================================== */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+h1, h2, h3, h4, h5 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+}
+
+.lead {
+	margin-top: 20px;
+}
+
+.btn-facebook, .btn-facebook:active, .btn-facebook.active, .btn-facebook.disabled, .btn-facebook[disabled] {
+	background-color: #4d70b0;
+	border-color: #4d70b0;
+	color: #ffffff;
+}
+.btn-facebook:hover, .btn-facebook:focus {
+	background-color: #204385;
+	border-color: #204385;
+	color: #ffffff;
+}
+.btn-primary, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+	background-color: #fc0000;
+	border-color: #fc0000;
+	color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:focus {
+	background-color: #fc0000;
+	border-color: #fc0000;
+	color: #ffffff;
+}
+.btn-success, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+	background-color: #b1dbf0;
+	border-color: #b1dbf0;
+	color: #ffffff;
+}
+.btn-success:hover, .btn-success:focus {
+	background-color: #b1dbf0;
+	border-color: #b1dbf0;
+	color: #ffffff;
+}
+/*	====================================================
+	header section
+	==================================================== */
+#header {
+	padding: 30px;
+}
+
+@media (max-width: 767px){
+	#header {
+		padding: 10px;
+	}
+	#logo {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	#logbtn {
+		text-align: center;
+		padding: 5px;
+	}
+}
+
+/*	====================================================
+	cover section
+	==================================================== */
+#cover {
+	color: #232323;
+	padding-top: 60px;
+}
+@media (max-width: 767px){
+	#cover {
+		padding-top: 10px;
+	}
+}
+
+#cover h2 {
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 42px;
+	margin-bottom: 100px;
+	margin-top: 20px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.66);
+}
+
+@media (max-width: 767px){
+	#cover h2 {
+		font-size: 32px;
+		line-height: 32px;
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+	#cover p {
+		margin-bottom: 10px;
+	}
+}
+
+/*------------------------------------------*/
+/*	 INTRO REGISTER FORM
+/*------------------------------------------*/
+.form_register form {
+	margin: 0 auto;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 30px 10px 40px;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+#signupform {
+	margin-bottom: 30px;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 767px){
+	.input-group-addon, .input-group-btn, .input-group .form-control {
+			display: block;
+			margin-bottom: 10px;
+			clear: both;
+			width: 100%;
+	}
+	.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+		border-top-left-radius: 6px;
+		border-bottom-left-radius: 6px;
+	}
+	.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+		border-top-right-radius: 6px;
+		border-bottom-right-radius: 6px;
+	}
+	.input-group {
+		display: block;
+	}
+}
