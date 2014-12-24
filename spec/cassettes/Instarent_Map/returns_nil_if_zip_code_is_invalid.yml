@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ziptasticapi.com/808FooFighter
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 31 Dec 2014 11:27:05 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Set-Cookie:
+      - PHPSESSID=2675eda20d20246f9e086903e6b465c4; path=/
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html
+    body:
+      encoding: US-ASCII
+      string: ! '{"error":"Not a valid Zip Code!"}'
+    http_version: 
+  recorded_at: Wed, 31 Dec 2014 11:27:06 GMT
+recorded_with: VCR 2.9.3

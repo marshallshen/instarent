@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ziptasticapi.com/97201
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 31 Dec 2014 11:27:06 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Set-Cookie:
+      - PHPSESSID=da8853af67ec369140c4fe76b072d485; path=/
+      - da8853af67ec369140c4fe76b072d485=DEFAULT%7C0%7C2M3TMlgUx3gTlaarYzHIdD28l8q9FTcNubt55%2BUGpAo%3D%7C7456bf61db3500c8bb7b3bc38082a470ce4a2ad3;
+        path=/
+      Content-Length:
+      - '47'
+      Vary:
+      - Accept-Encoding
+      Content-Type:
+      - text/html
+    body:
+      encoding: US-ASCII
+      string: ! '{"country":"US","state":"OR","city":"PORTLAND"}'
+    http_version: 
+  recorded_at: Wed, 31 Dec 2014 11:27:07 GMT
+recorded_with: VCR 2.9.3

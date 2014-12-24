@@ -1,4 +1,10 @@
-require "instarent/craiglist"
+require 'open-uri'
+require 'nokogiri'
+require 'json'
+require_relative 'instarent/craiglist'
+require_relative 'instarent/mailer'
+require_relative 'instarent/map'
+
 module Instarent
   CITY = 'chicago'
   BATHROOMS = 1
@@ -6,7 +12,6 @@ module Instarent
   MIN_PRICE = 1200
   MAX_PRICE = 2400
 
-  RESULT_SIZE = 20.freeze
 
   NEIGHBORHOOD_RANGE = {
     logan_square: { latitude: [41.914, 41.931], longtitude: [-87.717, -87.687]},
@@ -15,7 +20,5 @@ module Instarent
     lake_view: { latitude: [41.935, 41.947], longtitude: [-87.664, -87.652]},
     rosco_village: { latitude: [41.940, 41.950], longtitude: [-87.679, -87.663]},
   }.freeze
-
-  RECIPIENTS = ["shen.marshall@gmail.com", "brian.dellabetta@gmail.com"]
 end
 

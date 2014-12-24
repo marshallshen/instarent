@@ -1,0 +1,183 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=60661&sensor=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 30 Dec 2014 17:29:46 GMT
+      Expires:
+      - Wed, 31 Dec 2014 17:29:46 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic,p=0.02
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"60661\",\n               \"short_name\"
+        : \"60661\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"West Side\",\n               \"short_name\"
+        : \"West Side\",\n               \"types\" : [ \"neighborhood\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Chicago\",\n
+        \              \"short_name\" : \"Chicago\",\n               \"types\" : [
+        \"locality\", \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"Cook County\",\n               \"short_name\" : \"Cook County\",\n               \"types\"
+        : [ \"administrative_area_level_2\", \"political\" ]\n            },\n            {\n
+        \              \"long_name\" : \"Illinois\",\n               \"short_name\"
+        : \"IL\",\n               \"types\" : [ \"administrative_area_level_1\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"United
+        States\",\n               \"short_name\" : \"US\",\n               \"types\"
+        : [ \"country\", \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Chicago, IL 60661, USA\",\n         \"geometry\" : {\n            \"bounds\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 41.8890581,\n
+        \                 \"lng\" : -87.63964609999999\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 41.875417,\n                  \"lng\" : -87.6485909\n
+        \              }\n            },\n            \"location\" : {\n               \"lat\"
+        : 41.8819283,\n               \"lng\" : -87.6445473\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : {\n               \"northeast\"
+        : {\n                  \"lat\" : 41.8890581,\n                  \"lng\" :
+        -87.63964609999999\n               },\n               \"southwest\" : {\n
+        \                 \"lat\" : 41.875417,\n                  \"lng\" : -87.6485909\n
+        \              }\n            }\n         },\n         \"types\" : [ \"postal_code\"
+        ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Tue, 30 Dec 2014 17:29:46 GMT
+- request:
+    method: get
+    uri: http://ziptasticapi.com/60661
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 30 Dec 2014 17:35:37 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Set-Cookie:
+      - 8e1d04aabaec35d21232bfa0e4303d51=DEFAULT%7C0%7C2M3TMlgUx3gTlaarYzHIdD28l8q9FTcNubt55%2BUGpAo%3D%7C7456bf61db3500c8bb7b3bc38082a470ce4a2ad3;
+        path=/
+      - PHPSESSID=8e1d04aabaec35d21232bfa0e4303d51; path=/
+      Content-Length:
+      - '46'
+      Vary:
+      - Accept-Encoding
+      Content-Type:
+      - text/html
+    body:
+      encoding: US-ASCII
+      string: ! '{"country":"US","state":"IL","city":"CHICAGO"}'
+    http_version: 
+  recorded_at: Tue, 30 Dec 2014 17:35:37 GMT
+- request:
+    method: get
+    uri: http://ziptasticapi.com/60661
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 30 Dec 2014 17:38:41 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Set-Cookie:
+      - 034e058e14ff037ca8b8d0b56e416ca8=DEFAULT%7C0%7C2M3TMlgUx3gTlaarYzHIdD28l8q9FTcNubt55%2BUGpAo%3D%7C7456bf61db3500c8bb7b3bc38082a470ce4a2ad3;
+        path=/
+      - PHPSESSID=034e058e14ff037ca8b8d0b56e416ca8; path=/
+      Content-Length:
+      - '46'
+      Vary:
+      - Accept-Encoding
+      Content-Type:
+      - text/html
+    body:
+      encoding: US-ASCII
+      string: ! '{"country":"US","state":"IL","city":"CHICAGO"}'
+    http_version: 
+  recorded_at: Tue, 30 Dec 2014 17:38:42 GMT
+- request:
+    method: get
+    uri: http://ziptasticapi.com/94101
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 31 Dec 2014 11:27:05 GMT
+      Server:
+      - Apache
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Set-Cookie:
+      - PHPSESSID=c7b54269438a8cca90c5c56862e88ed9; path=/
+      - c7b54269438a8cca90c5c56862e88ed9=DEFAULT%7C0%7C2M3TMlgUx3gTlaarYzHIdD28l8q9FTcNubt55%2BUGpAo%3D%7C7456bf61db3500c8bb7b3bc38082a470ce4a2ad3;
+        path=/
+      Content-Length:
+      - '52'
+      Vary:
+      - Accept-Encoding
+      Content-Type:
+      - text/html
+    body:
+      encoding: US-ASCII
+      string: ! '{"country":"US","state":"CA","city":"SAN FRANCISCO"}'
+    http_version: 
+  recorded_at: Wed, 31 Dec 2014 11:27:06 GMT
+recorded_with: VCR 2.9.3

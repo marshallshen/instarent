@@ -6,20 +6,20 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>marshallshen landing page</title>
+  <title>Instarent</title>
 
   <link rel="shortcut icon" href="assets/img/icon.png" />
   <link rel="apple-touch-icon" href="assets/img/icon.png" />
   <!-- CSS -->
   <!-- bootstrap css -->
-  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
   <!-- google fonts -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
   <!-- Font awesome css -->
-  <link href="assets/css/fontawesome/css/font-awesome.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet">
   <!-- Custom styles css -->
-  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,9 +29,6 @@
       <div class="row">
         <div id="logo" class="col-md-3">
           <img src="http://placehold.it/173x45">
-        </div>
-        <div id="logbtn" class="col-md-9 text-right">
-          <a href="login.erb" class="btn btn-primary btn-lg">LOG IN</a>
         </div>
       </div>
     </div>
@@ -43,20 +40,49 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h2>The best way to shop for groceries.</h2>
-          <p class="lead">Delivered from the stores you love in one hour</p>
+          <h2>Automate Apartment Hunting</h2>
+
           <div class="form_register text-center">
-            <!-- Register Form -->
-            <form action="#" id="contactform" name="contactform" class="row" method="post">
-              <div class="input-group input-group-lg">
-                <input id="input_zip" class="form-control" type="text" name="input_zip" placeholder="ENTER YOUR ZIP CODE" required/>
-                <span class="input-group-btn">
-                  <button class="btn btn-success" type="submit">GET STARTED</button>
-                </span>
+            <form action="/search" method="post" class="form-horizontal">
+              <legend> What are you looking for? </legend>
+                <div class="form-group">
+                  <label for="email"> Email </label>
+                  <input type="text" name="email" class="form-control" placeholder="Email to inform you">
+                </div>
+
+                <div class="form-group">
+                  <label for="City"> City </label>
+                  <select class="form-control" name="city">
+                    <option>New York</option>
+                    <option>San Francisco</option>
+                    <option>Chicago</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="Bedroom"> Bedroom </label>
+                  <select class="form-control" name="bedroom">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="max_price"> Maximum Price </label>
+                  <select class="form-control" name="max_price">
+                    <option>1000</option>
+                    <option>1500</option>
+                    <option>2000</option>
+                    <option>2500</option>
+                    <option>3000</option>
+                    <option>5000</option>
+                  </select>
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
               </div>
             </form>
-          </div>
-          <p>First delivery is free over $10</p>
         </div>
       </div>
     </div>
@@ -64,7 +90,8 @@
   <!-- cover section end -->
 
 <!-- javascript files -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
+

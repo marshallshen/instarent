@@ -6,7 +6,7 @@ module Instarent
                   :port                 => 587,
                   :domain               => 'mail.google.com',
                   :user_name            => 'TryRentSmart',
-                  :password             => 'pZLcjFUGAQ4NpL3',
+                  :password             => 'password',
                   :authentication       => 'plain',
                   :enable_starttls_auto => true  }
 

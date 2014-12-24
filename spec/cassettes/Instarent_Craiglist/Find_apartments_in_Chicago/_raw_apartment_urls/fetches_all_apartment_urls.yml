@@ -1,0 +1,1256 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://chicago.craigslist.org/search/chc/apa?bathrooms=1&bedrooms=2&maxAsk=2400&minAsk=1200
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - close
+      Cache-Control:
+      - max-age=900, public
+      Last-Modified:
+      - Sat, 10 Jan 2015 23:00:12 GMT
+      Date:
+      - Sat, 10 Jan 2015 23:00:11 GMT
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '15819'
+      Content-Type:
+      - text/html; charset=utf-8
+      Set-Cookie:
+      - cl_b=SHdebhyZ5BGaH5Z4W55CtwoDE2w;path=/;domain=.craigslist.org;expires=Fri,
+        01-Jan-2038 00:00:00 GMT
+      Server:
+      - Apache
+      Expires:
+      - Sat, 10 Jan 2015 23:15:12 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n\n<html class=\"no-js\"><head>\n<title>\n    chicago
+        apts/housing for rent  - craigslist\n</title>\n\n    <meta name=\"description\"
+        content=\"chicago apts/housing for rent  - craigslist\">\n    <link rel=\"alternate\"
+        type=\"application/rss+xml\" href=\"http://chicago.craigslist.org/search/chc/apa?bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200&amp;format=rss\"
+        title=\"RSS feed for craigslist | apts/housing for rent  in chicago \">\n
+        \   <meta name=\"viewport\" content=\"initial-scale=1.0, user-scalable=1\">\n
+        \   <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/cl.css?v=62a0eb01fba4c0b9f6fb3d63e58734bf\">\n
+        \   <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/tocs.css?v=652e6deca0e9bcdc2bb5b873931af7d9\">\n
+        \   <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/jquery-ui-1.9.2.custom.css?v=86db72e37d2cf63cab3c63485c71becb\">\n
+        \   <link rel=\"prefetch\" href=\"//www.craigslist.org/js/postings-concat.min.js?v=c12ba47ede3323108dfe0fea1689afbd\">\n
+        \   \n    <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/leaflet-stock.css?v=ea2cbe352bcad5eae1c267a9dd15a5c1\">\n<link
+        type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/MarkerCluster.css?v=c9937ed03fbb57f185493cd8c283efeb\">\n<link
+        type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/tocsmaps.css?v=77ba864e33f5829f2031d591fa7ef1b6\">\n<!--[if
+        IE]>\n    <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/tocsmaps-ie.css?v=b21742b2ebe243963373e956ea115db0\">\n<![endif]-->\n
+        \   \n        <script type=\"text/javascript\"><!--\n            var expiredFavIDs
+        = [];\nvar subarea = \"chc\";\nvar maxResults = 2500;\nvar lessInfoText =
+        \"less info\";\nvar showMapTabs = 1;\nvar areaID = \"11\";\nvar starHint =
+        \"save this post in your favorites list\";\nvar sectionAbb = \"hhh\";\nvar
+        catAbb = \"apa\";\nvar currencySymbol = \"&#x0024;\";\nvar noImageText = \"no
+        image\";\nvar areaRegion = \"IL\";\nvar showInfoText = \"show info\";\nvar
+        zoomToPosting = null;\nvar imageHost = \"http://images.craigslist.org\";\nvar
+        areaCountry = \"US\";\nvar pID = null;\n\n        --></script>\n    \n    <!--[if
+        lt IE 9]>\n<script src=\"//www.craigslist.org/js/html5shiv.min.js?v=42e8031bc7ca9d67a48f4a5feff7bf29\"
+        type=\"text/javascript\" ></script>\n<![endif]-->\n<!--[if lte IE 7]>\n<script
+        src=\"//www.craigslist.org/js/json2.min.js?v=178d4ad319e0e0b4a451b15e49b71bec\"
+        type=\"text/javascript\" ></script>\n<![endif]-->\n</head>\n\n<body class=\"toc
+        search\">\n    <script type=\"text/javascript\"><!--\n    function C(k){return(document.cookie.match('(^|;
+        )'+k+'=([^;]*)')||0)[2]}\n    var pagetype, pagemode;\n    (function(){\n
+        \       var h = document.documentElement;\n        h.className = h.className.replace('no-js',
+        'js');\n        var b = document.body;\n        var bodyClassList = b.className.split(/\\s+/);;\n
+        \       pagetype = bodyClassList[0]; // dangerous assumption\n        var
+        fmt = C('cl_fmt');\n        if ( fmt === 'regular' || fmt === 'mobile' ) {\n
+        \           pagemode = fmt;\n        } else if (screen.width <= 480) {\n            pagemode
+        = 'mobile';\n        } else {\n            pagemode = 'regular';\n        }\n
+        \       var lng = C('cl_def_lang');\n        if (lng) bodyClassList.push(lng);\n
+        \       pagemode = pagemode === 'mobile' ? 'mobile' : 'desktop';\n        bodyClassList.push(pagemode);\n
+        \       if (C('hidesearch') === '1' && pagemode !== 'mobile') {\n            bodyClassList.push('hide-search');\n
+        \       }\n        var width = window.innerWidth || document.documentElement.clientWidth;\n
+        \       if (width > 1000) { bodyClassList.push('w1024'); }\n        if (typeof
+        sectionAbb !== 'undefined') {\n            var mode = (decodeURIComponent(C('cl_tocmode')
+        || '').match(new RegExp(sectionAbb + ':([^,]+)', 'i')) || {})[1];\n            if
+        (mode) {\n                bodyClassList.push(mode);\n            }\n        }\n
+        \       b.className = bodyClassList.join(' ');\n    }());\n--></script>\n\n\n
+        \   <article id=\"pagecontainer\">\n      <div class=\"bglogo\"></div>\n      <header
+        class=\"bchead\">\n    <form id=\"breadcrumbform\" method=\"get\" action=\"/search/chc/apa\"
+        data-action=\"/search/###/apa\">\n        <input type=\"hidden\" name=\"minAsk\"
+        value=\"1200\"><input type=\"hidden\" name=\"bathrooms\" value=\"1\"><input
+        type=\"hidden\" name=\"maxAsk\" value=\"2400\"><input type=\"hidden\" name=\"bedrooms\"
+        value=\"2\">\n        <nav class=\"contents closed\">\n            <div class=\"breadbox\">\n
+        \               <ul class=\"breadcrumbs\">\n                    <li class=\"crumb
+        cl\"><a href=\"/\">CL</a></li><li class=\"crumb area\"><span class=\"no-js\"><a
+        href=\"/\">chicago</a></span><select name=\"areaAbb\" id=\"areaAbb\" class=\"js-only\"><option
+        value=\"chicago\">chicago</option><option value=\"annarbor\">ann arbor</option><option
+        value=\"appleton\">appleton</option><option value=\"battlecreek\">battle creek</option><option
+        value=\"bn\">bloomington, IL</option><option value=\"bloomington\">bloomington,
+        IN</option><option value=\"cedarrapids\">cedar rapids</option><option value=\"centralmich\">central
+        MI</option><option value=\"chambana\">chambana</option><option value=\"dayton\">dayton</option><option
+        value=\"decatur\">decatur, IL</option><option value=\"dubuque\">dubuque</option><option
+        value=\"flint\">flint</option><option value=\"fortwayne\">fort wayne</option><option
+        value=\"grandrapids\">grand rapids</option><option value=\"greenbay\">green
+        bay</option><option value=\"holland\">holland</option><option value=\"indianapolis\">indianapolis</option><option
+        value=\"iowacity\">iowa city</option><option value=\"jxn\">jackson, MI</option><option
+        value=\"janesville\">janesville</option><option value=\"kalamazoo\">kalamazoo</option><option
+        value=\"racine\">kenosha-racine</option><option value=\"kokomo\">kokomo</option><option
+        value=\"lacrosse\">la crosse</option><option value=\"lasalle\">la salle co</option><option
+        value=\"lansing\">lansing</option><option value=\"limaohio\">lima-findlay</option><option
+        value=\"madison\">madison</option><option value=\"mattoon\">mattoon</option><option
+        value=\"milwaukee\">milwaukee</option><option value=\"monroemi\">monroe, MI</option><option
+        value=\"muncie\">muncie</option><option value=\"muskegon\">muskegon</option><option
+        value=\"nmi\">northern MI</option><option value=\"peoria\">peoria</option><option
+        value=\"quadcities\">quad cities</option><option value=\"richmondin\">richmond,
+        IN</option><option value=\"rockford\">rockford</option><option value=\"saginaw\">saginaw</option><option
+        value=\"sheboygan\">sheboygan, WI</option><option value=\"southbend\">south
+        bend</option><option value=\"swmi\">southwest MI</option><option value=\"springfieldil\">springfield,
+        IL</option><option value=\"terrehaute\">terre haute</option><option value=\"tippecanoe\">tippecanoe</option><option
+        value=\"toledo\">toledo</option></select> &gt;</li><li class=\"crumb subarea\"><select
+        id=\"subArea\" name=\"subArea\"><option value=\"\">all chicago</option><option
+        value=\"chc\" selected>city of chicago</option><option value=\"nch\">north
+        chicagoland</option><option value=\"nwi\">northwest indiana</option><option
+        value=\"nwc\">northwest suburbs</option><option value=\"sox\">south chicagoland</option><option
+        value=\"wcl\">west chicagoland</option></select> &gt;</li><li class=\"crumb
+        section\"><select name=\"catAbb\" id=\"catAbb\"><option value=\"ccc\">community</option><option
+        value=\"eee\">events</option><option value=\"sss\">for sale</option><option
+        value=\"ggg\">gigs</option><option value=\"hhh\" selected=\"selected\">housing</option><option
+        value=\"jjj\">jobs</option><option value=\"ppp\">personals</option><option
+        value=\"rrr\">resumes</option><option value=\"bbb\">services</option></select>
+        &gt;</li><li class=\"crumb category\"><select id=\"subcatAbb\" class=\"js-only\"><option
+        value=\"hhh\">all</option><option value=\"hou\">apts wanted</option><option
+        value=\"apa\" selected=\"selected\">apts/housing for rent</option><option
+        value=\"swp\">housing swap</option><option value=\"off\">office & commercial</option><option
+        value=\"prk\">parking & storage</option><option value=\"reb\">real estate
+        - by broker</option><option value=\"reo\">real estate - by owner</option><option
+        value=\"rew\">real estate wanted</option><option value=\"roo\">rooms & shares</option><option
+        value=\"sha\">rooms wanted</option><option value=\"sbw\">sublet/temp wanted</option><option
+        value=\"sub\">sublets & temporary</option><option value=\"vac\">vacation rentals</option></select><span
+        class=\"no-js\">apts/housing for rent</span> <span class=\"no-js\"> <input
+        type=\"submit\" value=\"go\"></span></li>\n                </ul>\n                <ul
+        class=\"userlinks\">\n                    <li class=\"user post\"><a href=\"https://post.craigslist.org/c/chi?lang=en\">post</a></li>\n
+        \                   <li class=\"user account\"><em>[ </em><a href=\"https://accounts.craigslist.org/login/home\">account</a><em>
+        ]</em></li>\n                    <li class=\"user fav\"><div class=\"favorites\">\n
+        \   <a href=\"#\" class=\"favlink no-mobile\"><span class=\"n\">0</span> favorites</a>\n
+        \   <a href=\"#\" class=\"favlink mobile-only\"><span class=\"n\">0</span></a>\n</div></li>\n
+        \                   <li><div class=\"menu-button\">&mdash; &mdash; &mdash;</div></li>\n
+        \               </ul>\n            </div>\n            <div class=\"clearfix\"></div>\n
+        \       </nav>\n    </form>\n</header>\n\n      <div class=\"middle\">\n        <form
+        id=\"searchform\" action=\"/search/chc/apa\">\n          <input id=\"excats\"
+        type=\"hidden\" name=\"excats\">\n          \n          <div class=\"searchgroup
+        query\">\n            \n            <input type=\"text\" placeholder=\"search
+        apts/housing for rent\" name=\"query\"\n                   id=\"query\" value=\"\"
+        autocorrect=\"off\"\n                   autocapitalize=\"off\" autocomplete=\"off\"
+        data-suggest=\"search\"\n                   class=\"flatinput ui-autocomplete-input\">\n
+        \           <button type=\"submit\" id=\"searchbtn\"><span class=\"searchicon\"></span></button>\n
+        \           \n              <div class=\"savealert\">\n                 <a
+        class=\"saveme no-mobile\" data-action=\"alert\" href=\"https://accounts.craigslist.org/login?rt=L&amp;rp=%2Fsavesearch%2Falert%3FURL%3Dhttp%253A%252F%252Fchicago%252Ecraigslist%252Eorg%252Fsearch%252Fchc%252Fapa%253Fbathrooms%253D1%2526bedrooms%253D2%2526maxAsk%253D2400%2526minAsk%253D1200\"
+        title=\"save this search with email alerts \">set alert</a>\n                 <a
+        class=\"saveme no-mobile\" data-action=\"save\" href=\"https://accounts.craigslist.org/login?rt=L&amp;rp=%2Fsavesearch%2Fsave%3FURL%3Dhttp%253A%252F%252Fchicago%252Ecraigslist%252Eorg%252Fsearch%252Fchc%252Fapa%253Fbathrooms%253D1%2526bedrooms%253D2%2526maxAsk%253D2400%2526minAsk%253D1200\"
+        title=\"save this search \">save search</a>\n                 <a class=\"saveme
+        mobile-only\" href=\"https://accounts.craigslist.org/login?rt=L&amp;rp=%2Fsavesearch%2Falert%3FURL%3Dhttp%253A%252F%252Fchicago%252Ecraigslist%252Eorg%252Fsearch%252Fchc%252Fapa%253Fbathrooms%253D1%2526bedrooms%253D2%2526maxAsk%253D2400%2526minAsk%253D1200\">search
+        alert</a>\n              </div>\n              \n          </div>\n          <div
+        class=\"searchgroup showoptions linklike closed\">\n            <span class=\"open\">&ndash;</span><span
+        class=\"closed\">+</span> options, settings, categories\n            <div
+        class=\"mobile-favorites mobile-only\"><div class=\"favorites\">\n    <a href=\"#\"
+        class=\"favlink no-mobile\"><span class=\"n\">0</span> favorites</a>\n    <a
+        href=\"#\" class=\"favlink mobile-only\"><span class=\"n\">0</span></a>\n</div></div>\n
+        \         </div>\n          <div class=\"searchoptions closed\">\n            \n
+        \       <script type=\"text/javascript\"><!--\n            var odaCats = {};\n\n
+        \       --></script>\n    <div class=\"cattitle ban\"><span class=\"daybubbles\">apts/housing
+        for rent</span></div>\n            <input type=\"hidden\" name=\"is_paid\"
+        id=\"is_paid\" value=\"\">\n            \n            <div class=\"searchgroup\"><ul><li><label
+        class=\"srchType\"><input type=\"checkbox\" name=\"srchType\" class=\"autosubmit\"
+        value=\"T\" >search titles only</label></li><li><label class=\"hasPic\"><input
+        type=\"checkbox\" name=\"hasPic\" class=\"autosubmit\" value=\"1\" >has image</label></li><li><label
+        class=\"postedToday\"><input type=\"checkbox\" name=\"postedToday\" class=\"autosubmit\"
+        value=\"1\" >posted today</label></li></ul></div>\n\n            \n            <div
+        class=\"searchgroup\"><ul><li><label class=\"pets_cat\"><input type=\"checkbox\"
+        name=\"pets_cat\" class=\"autosubmit\" value=\"1\" >cats ok</label></li><li><label
+        class=\"pets_dog\"><input type=\"checkbox\" name=\"pets_dog\" class=\"autosubmit\"
+        value=\"1\" >dogs ok</label></li></ul></div>\n\n            \n            <div
+        class=\"searchgroup\">      <div id=\"headerattr_housing_type\" class=\"catfilter
+        attr_picker multilink \"\n            data-checked-count=\"0\" data-attr=\"housing_type\">\n
+        \       <span id=\"plusminus_housing_type\" class=\"plusminus\">+</span>housing
+        type\n      </div>\n<ul id=\"ul_housing_type\" class=\"attr_list hideme\">
+        \          <li class=\"attr_housing_type \">\n             <label data-attr=\"housing_type\">\n
+        \              <input id=\"apartment_1\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"1\" type=\"checkbox\">\n               apartment\n
+        \            </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"condo_2\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"2\" type=\"checkbox\">\n               condo\n
+        \            </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"cottage/cabin_3\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"3\" type=\"checkbox\">\n               cottage/cabin\n
+        \            </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"duplex_4\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"4\" type=\"checkbox\">\n               duplex\n
+        \            </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"flat_5\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"5\" type=\"checkbox\">\n               flat\n
+        \            </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"house_6\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"6\" type=\"checkbox\">\n               house\n
+        \            </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"in-law_7\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"7\" type=\"checkbox\">\n               in-law\n
+        \            </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"loft_8\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"8\" type=\"checkbox\">\n               loft\n
+        \            </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"townhouse_9\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"9\" type=\"checkbox\">\n               townhouse\n
+        \            </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"manufactured_10\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"10\" type=\"checkbox\">\n               manufactured\n
+        \            </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"assisted_living_11\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"11\" type=\"checkbox\">\n               assisted
+        living\n             </label>\n           </li>\n           <li class=\"attr_housing_type
+        \">\n             <label data-attr=\"housing_type\">\n               <input
+        id=\"land_12\" name=\"housing_type\"\n                      class=\"multi_checkbox
+        multi_housing_type\" data-attr=\"housing_type\"\n                      \n
+        \                     value=\"12\" type=\"checkbox\">\n               land\n
+        \            </label>\n           </li>\n<li class=\"selectall js-only attr_housing_type
+        \"><label><input type=\"checkbox\" data-attr=\"housing_type\" class=\"selectallcb
+        multi_checkbox\" > <span class=\"all select_all_housing_type\">select all</span><span
+        class=\"none deselect_all_housing_type\">deselect all</span></label></li></ul></div><div
+        class=\"searchgroup minmax \">\n  <span>&#x0024;&#x0024;&#x0024;</span> <input
+        type=\"tel\" name=\"minAsk\" class=\"flatinput min\" placeholder=\"min\" title=\"whole
+        number, no letters or symbols\" value=\"1200\"> <input type=\"tel\" name=\"maxAsk\"
+        class=\"flatinput max\" placeholder=\"max\" title=\"whole number, no letters
+        or symbols\" value=\"2400\">\n</div>\n<div class=\"searchgroup\">\n  <select
+        name=\"bedrooms\" class=\"autosubmit\">\n    <option value=\"\">all bedrooms</option>\n
+        \   <option value=\"1\">1+ bedrooms</option>\n<option value=\"2\" selected=\"selected\">2+
+        bedrooms</option>\n<option value=\"3\">3+ bedrooms</option>\n<option value=\"4\">4+
+        bedrooms</option>\n<option value=\"5\">5+ bedrooms</option>\n<option value=\"6\">6+
+        bedrooms</option>\n<option value=\"7\">7+ bedrooms</option>\n<option value=\"8\">8+
+        bedrooms</option>\n\n  </select>\n  <br>\n  <select name=\"bathrooms\" class=\"autosubmit\">\n
+        \   <option value=\"\">all bathrooms</option>\n    <option value=\"1\" selected=\"selected\">1+
+        bathrooms</option>\n<option value=\"2\">2+ bathrooms</option>\n<option value=\"3\">3+
+        bathrooms</option>\n<option value=\"4\">4+ bathrooms</option>\n<option value=\"5\">5+
+        bathrooms</option>\n<option value=\"6\">6+ bathrooms</option>\n<option value=\"7\">7+
+        bathrooms</option>\n<option value=\"8\">8+ bathrooms</option>\n\n  </select>\n</div><div
+        class=\"searchgroup minmax \">\n  <span>ft<sup>2</sup></span> <input type=\"tel\"
+        name=\"minSqft\" class=\"flatinput min\" placeholder=\"min\" title=\"whole
+        number, no letters or symbols\" value=\"\"> <input type=\"tel\" name=\"maxSqft\"
+        class=\"flatinput max\" placeholder=\"max\" title=\"whole number, no letters
+        or symbols\" value=\"\">\n</div><div class=\"searchgroup\">\n  <div class=\"label\">open
+        house date</div> \n  <select class=\"autosubmit\" id=\"sale_date\" name=\"sale_date\">\n
+        \    <option value=\"\"></option>\n     <option value=\"2015-01-10\">Jan 10
+        - today</option>\n<option value=\"2015-01-11\">Jan 11 - tomorrow</option>\n<option
+        value=\"2015-01-12\">Jan 12 - monday</option>\n<option value=\"2015-01-13\">Jan
+        13 - tuesday</option>\n<option value=\"2015-01-14\">Jan 14 - wednesday</option>\n<option
+        value=\"2015-01-15\">Jan 15 - thursday</option>\n<option value=\"2015-01-16\">Jan
+        16 - friday</option>\n<option value=\"2015-01-17\">Jan 17 - saturday</option>\n<option
+        value=\"2015-01-18\">Jan 18 - sunday</option>\n<option value=\"2015-01-19\">Jan
+        19 - monday</option>\n<option value=\"2015-01-20\">Jan 20 - tuesday</option>\n<option
+        value=\"2015-01-21\">Jan 21 - wednesday</option>\n<option value=\"2015-01-22\">Jan
+        22 - thursday</option>\n<option value=\"2015-01-23\">Jan 23 - friday</option>\n\n
+        \ </select>\n</div>\n            <div class=\"resetsearch\">\n              <a
+        href=\"/search/chc/apa\" title=\"clear all search parameters\">reset search</a>\n
+        \           </div>\n          </div>\n\n          \n\n        </form>\n\n
+        \       <div class=\"rightpane\">\n          <div class=\"toc_legend\">\n
+        \           <span class=\"form-tab linklike js-only\">\n              <span
+        class=\"search-open\" title=\"hide search\">&larr;</span>\n              <span
+        class=\"search-closed\" title=\"show search\">&rarr;</span>\n            </span>\n
+        \           <div class=\"center\">\n              <div class=\"tocview\"><span
+        class=\"buttongroup js-only\"><a href=\"#list\" title=\"show results in a
+        list\" class=\"mode button\" data-view=\"list\" id=\"listview\">list</a><a
+        href=\"#pic\" title=\"show results in a list with thumbnail pictures\" class=\"mode
+        button\" data-view=\"pic\" id=\"picview\">thumb</a><a href=\"#grid\" title=\"show
+        results side-by-side with larger pictures\" class=\"mode button\" data-view=\"grid\"
+        id=\"gridview\">gallery</a><a href=\"#map\" title=\"show results on a map\"
+        class=\"mode button\" data-view=\"map\" id=\"mapview\">map</a></span></div><div
+        class=\"tocsort\"><span class=\"buttongroup\"><a class=\"button\" title=\"show
+        newest matches first\" href=\"/search/chc/apa?sort=date&bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200\">newest</a><a
+        class=\"button\" title=\"sort by price, lowest to highest\" href=\"/search/chc/apa?sort=priceasc&bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200\"><span
+        class='pricesort'><span class='pricesort'>&#x0024;</span>&#x0024;</span>&#x0024;</a><a
+        class=\"button\" title=\"sort by price, highest to lowest\" href=\"/search/chc/apa?sort=pricedsc&bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200\">&#x0024;<span
+        class='pricesort'>&#x0024;<span class='pricesort'>&#x0024;</span></span></a></span></div><span
+        class=\"paginator buttongroup  firstpage\"><span class=\"resulttotal\">displaying
+        <span class='displaycount'>...</span> of <a href='//www.craigslist.org/about/help/results'
+        class='totallink'><span class=\"totalcount\">12421</span></a> postings</span><span
+        class=\"buttons\"><a href=\"/search/chc/apa?bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200\"
+        class=\"button first\" title=\"first page\">&lt;&lt;</a><span class=\"button
+        first\" title=\"first page\">&lt;&lt;</span><a href=\"/search/chc/apa?bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200\"
+        class=\"button prev\" title=\"previous page\">&lt; prev</a><span class=\"button
+        prev\" title=\"previous page\">&lt; prev</span><span class=\"button pagenum\"><span
+        class='range'>1 - 100</span> of <a href='//www.craigslist.org/about/help/results'
+        class='totallink'><span class=\"totalcount\">12421</span></a></span><a href=\"/search/chc/apa?s=100&amp;bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200\"
+        class=\"button next\" title=\"next page\"> next &gt; </a><span class=\"button
+        next\" title=\"next page\"> next &gt; </span></span></span>\n            </div>\n
+        \           \n          </div>\n          <div class=\"content\">\n            <section
+        class=\"favlistsection\">\n              <section class=\"favlistinfo\">\n
+        \                 \n                  \n              </section>\n            </section>\n\n
+        \           \n\n            \n            <p class=\"row\" data-pid=\"4812490924\">
+        <a href=\"/chc/apa/4812490924.html\" class=\"i\" data-id=\"0:00b0b_lwJYearLFE1\"></a>
+        <span class=\"txt\"> <span class=\"star\"></span> <span class=\"pl\"> <time
+        datetime=\"2015-01-10 16:50\" title=\"Sat 10 Jan 04:50:55 PM (9 minutes ago)\">Jan
+        10</time> <a href=\"/chc/apa/4812490924.html\" data-id=\"4812490924\" class=\"hdrlnk\">Old
+        Town 2 Bedroom + Den</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1995</span>
+        <span class=\"housing\">/ 2br - 1100ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Hudson)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4812490924\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4821262420\"> <a href=\"/chc/apa/4821262420.html\"
+        class=\"i\" data-id=\"0:00D0D_hzMxe2AvAAj\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:50\"
+        title=\"Sat 10 Jan 04:50:36 PM (9 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4821262420.html\"
+        data-id=\"4821262420\" class=\"hdrlnk\">Spacious Vintage 2 Bedroom, 2 Blocks
+        from Redline</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1400</span>
+        <span class=\"housing\">/ 2br - 1700ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Rogers Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4821262420\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4809260482\"> <a href=\"/chc/apa/4809260482.html\"
+        class=\"i\" data-id=\"0:00G0G_kXw8388ux7C\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:49\"
+        title=\"Sat 10 Jan 04:49:58 PM (10 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4809260482.html\"
+        data-id=\"4809260482\" class=\"hdrlnk\">DOG FRIENDLY 2 BD/2BA*INCREDIBLE LAKE
+        VIEWS*GOLD COAST*CLOSET SPACE</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2399</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (GOLD
+        COAST)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4809260482\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4829435074\"> <a href=\"/chc/apa/4829435074.html\"
+        class=\"i\" data-id=\"0:01111_7OO9Np7JQ6I\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:49\"
+        title=\"Sat 10 Jan 04:49:56 PM (10 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4829435074.html\"
+        data-id=\"4829435074\" class=\"hdrlnk\">A beautiful &amp; large 4 BR apt.
+        Hdwd fl central air walk to train</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1250</span>
+        <span class=\"housing\">/ 4br - </span> <span class=\"pnr\"> <small> (McKinley
+        Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4829435074\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4838152938\"> <a href=\"/chc/apa/4838152938.html\"
+        class=\"i\" data-id=\"0:00Y0Y_iz2TwAFK04u\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:49\"
+        title=\"Sat 10 Jan 04:49:54 PM (10 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4838152938.html\"
+        data-id=\"4838152938\" class=\"hdrlnk\">Very nice 2 bed in Evanston ! Hardwood
+        floors, Laundry in building</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1350</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Evanston)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4838152938\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4829436280\"> <a href=\"/chc/apa/4829436280.html\"
+        class=\"i\" data-id=\"0:00303_37kS5UflH1Z\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:49\"
+        title=\"Sat 10 Jan 04:49:48 PM (10 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4829436280.html\"
+        data-id=\"4829436280\" class=\"hdrlnk\">Fabulous 3 BR 1-1/2 BA unit Newer
+        Kit hdwd fl Heat incl Gar avaiolable</a> </span> <span class=\"l2\"> <span
+        class=\"price\">&#x0024;1475</span> <span class=\"housing\">/ 3br - </span>
+        <span class=\"pnr\"> <small> (Albany Park)</small> <span class=\"px\"> <span
+        class=\"p\"> pic <span class=\"maptag\" data-pid=\"4829436280\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4812267450\"> <a href=\"/chc/apa/4812267450.html\"
+        class=\"i\" data-id=\"0:01616_dPQF07ydBiK\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:48\"
+        title=\"Sat 10 Jan 04:48:47 PM (11 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4812267450.html\"
+        data-id=\"4812267450\" class=\"hdrlnk\">Wrigleyville</a> </span> <span class=\"l2\">
+        <span class=\"price\">&#x0024;1495</span> <span class=\"housing\">/ 2br -
+        1050ft<sup>2</sup> - </span> <span class=\"pnr\"> <small> (Magnolia)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4812267450\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4812269430\"> <a href=\"/chc/apa/4812269430.html\"
+        class=\"i\" data-id=\"0:00V0V_f0o5NO31UIj\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:48\"
+        title=\"Sat 10 Jan 04:48:23 PM (11 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4812269430.html\"
+        data-id=\"4812269430\" class=\"hdrlnk\">Gold Coast - Remodeled Unit</a> </span>
+        <span class=\"l2\"> <span class=\"price\">&#x0024;2200</span> <span class=\"housing\">/
+        3br - 1300ft<sup>2</sup> - </span> <span class=\"pnr\"> <small> (Elm Stret)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4812269430\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4834304723\"> <a href=\"/chc/apa/4834304723.html\"
+        class=\"i\" data-id=\"0:00s0s_2tLJvwn7AgS\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:47\"
+        title=\"Sat 10 Jan 04:47:50 PM (12 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4834304723.html\"
+        data-id=\"4834304723\" class=\"hdrlnk\">Perfect place! 2 bed, close to shopping,
+        rooftop deck, pet friendly</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1771</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - South Loop)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4812513574\"> <a href=\"/chc/apa/4812513574.html\"
+        class=\"i\" data-id=\"0:00k0k_79f0gmj5M5b\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:47\"
+        title=\"Sat 10 Jan 04:47:34 PM (12 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4812513574.html\"
+        data-id=\"4812513574\" class=\"hdrlnk\">Uptown</a> </span> <span class=\"l2\">
+        <span class=\"price\">&#x0024;1335</span> <span class=\"housing\">/ 2br -
+        925ft<sup>2</sup> - </span> <span class=\"pnr\"> <small> (Sheridan)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4812513574\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4825302999\"> <a href=\"/chc/apa/4825302999.html\"
+        class=\"i\" data-id=\"0:00707_4epqfP3KBys\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:47\"
+        title=\"Sat 10 Jan 04:47:05 PM (13 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4825302999.html\"
+        data-id=\"4825302999\" class=\"hdrlnk\">Lakeview - Belmont Harbor</a> </span>
+        <span class=\"l2\"> <span class=\"price\">&#x0024;1695</span> <span class=\"housing\">/
+        2br - 1000ft<sup>2</sup> - </span> <span class=\"pnr\"> <small> (LSD)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4825302999\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4841428855\"> <a href=\"/chc/apa/4841428855.html\"
+        class=\"i\" data-id=\"0:00k0k_huKYxqXO33y\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:46\"
+        title=\"Sat 10 Jan 04:46:39 PM (13 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841428855.html\"
+        data-id=\"4841428855\" class=\"hdrlnk\">2 bed 2 bath high end finishes, city
+        views, pet friendly</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2297</span>
+        <span class=\"housing\">/ 2br - 1100ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (730 S Clark St)</small> <span class=\"px\"> <span class=\"p\"> pic
+        <span class=\"maptag\" data-pid=\"4841428855\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4804092949\"> <a href=\"/chc/apa/4804092949.html\"
+        class=\"i\" data-id=\"0:00m0m_a3JQ8ewx1h7\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:45\"
+        title=\"Sat 10 Jan 04:45:52 PM (14 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4804092949.html\"
+        data-id=\"4804092949\" class=\"hdrlnk\">Start Your Day Off With Your Lovely
+        New Apartment!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1600</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Evanston)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4804092949\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4809256874\"> <a href=\"/chc/apa/4809256874.html\"
+        class=\"i\" data-id=\"0:00O0O_691OmmLznGf\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:45\"
+        title=\"Sat 10 Jan 04:45:43 PM (14 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4809256874.html\"
+        data-id=\"4809256874\" class=\"hdrlnk\">2 BD/2 BA*BALCONY*W/D*1 MO FREE RENT*BLUE
+        LINE*JEWEL OSCO!!!!!!!!!!!!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2309</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (WEST
+        LOOP, FULTON RIVER DISTRICT)</small> <span class=\"px\"> <span class=\"p\">
+        pic</span></span> </span> </span> </span> </p><p class=\"row\" data-pid=\"4806900349\">
+        <a href=\"/chc/apa/4806900349.html\" class=\"i\" data-id=\"0:00n0n_dOGWC50kMfP\"></a>
+        <span class=\"txt\"> <span class=\"star\"></span> <span class=\"pl\"> <time
+        datetime=\"2015-01-10 16:45\" title=\"Sat 10 Jan 04:45:26 PM (14 minutes ago)\">Jan
+        10</time> <a href=\"/chc/apa/4806900349.html\" data-id=\"4806900349\" class=\"hdrlnk\">2
+        bed 2 bath apartment, Underground heated parking available!</a> </span> <span
+        class=\"l2\"> <span class=\"price\">&#x0024;1783</span> <span class=\"housing\">/
+        2br - 955ft<sup>2</sup> - </span> <span class=\"pnr\"> <small> (Oak Park)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4806900349\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4806906886\"> <a href=\"/chc/apa/4806906886.html\"
+        class=\"i\" data-id=\"0:00P0P_kYt8iFKXHcr\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:45\"
+        title=\"Sat 10 Jan 04:45:20 PM (14 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4806906886.html\"
+        data-id=\"4806906886\" class=\"hdrlnk\">Spacious 2 bed 2 bath apartment with
+        tons of closet space!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1929</span>
+        <span class=\"housing\">/ 2br - 1015ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Oak Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4806906886\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4838406589\"> <a href=\"/chc/apa/4838406589.html\"
+        class=\"i\" data-id=\"0:00G0G_kXw8388ux7C\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:44\"
+        title=\"Sat 10 Jan 04:44:28 PM (15 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4838406589.html\"
+        data-id=\"4838406589\" class=\"hdrlnk\">DOG FRIENDLY 2 BD/2BA*INCREDIBLE LAKE
+        VIEWS*GOLD COAST*CLOSET SPACE</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2399</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (GOLD
+        COAST)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4838406589\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4829574524\"> <a href=\"/chc/apa/4829574524.html\"
+        class=\"i\" data-id=\"0:00N0N_dXKHp3z30KK\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:44\"
+        title=\"Sat 10 Jan 04:44:25 PM (15 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4829574524.html\"
+        data-id=\"4829574524\" class=\"hdrlnk\">### BEST PRICED DOWNTOWN 2 BED ###</a>
+        </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2325</span> <span
+        class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Loop)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span> </span> </span>
+        </p><p class=\"row\" data-pid=\"4841431085\"> <a href=\"/chc/apa/4841431085.html\"
+        class=\"i\" data-id=\"0:00000_fmBnLBLY3NU\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:41\"
+        title=\"Sat 10 Jan 04:41:21 PM (18 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841431085.html\"
+        data-id=\"4841431085\" class=\"hdrlnk\">1100sqft 2bed on Mohawk &amp; Armitage
+        w/ heat incl &amp; NO DEPOSIT! hdwd</a> </span> <span class=\"l2\"> <span
+        class=\"price\">&#x0024;1840</span> <span class=\"housing\">/ 2br - 1100ft<sup>2</sup>
+        - </span> <span class=\"pnr\"> <small> (Lincoln Park)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span> </span> </span> </p><p class=\"row\"
+        data-pid=\"4837004933\"> <a href=\"/chc/apa/4837004933.html\" class=\"i\"
+        data-id=\"0:00L0L_8BRMmBUOfgx\"></a> <span class=\"txt\"> <span class=\"star\"></span>
+        <span class=\"pl\"> <time datetime=\"2015-01-10 16:40\" title=\"Sat 10 Jan
+        04:40:51 PM (19 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4837004933.html\"
+        data-id=\"4837004933\" class=\"hdrlnk\">Cable ready , Ceiling fans, HW Floors
+        2 bedroom unit !Rehabbed!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1400</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4837004933\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4804484965\"> <a href=\"/chc/apa/4804484965.html\"
+        class=\"i\" data-id=\"0:00d0d_eSeM3b677Of\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:40\"
+        title=\"Sat 10 Jan 04:40:45 PM (19 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4804484965.html\"
+        data-id=\"4804484965\" class=\"hdrlnk\">Modern 3 Bed, 1.5 Ba. Renovated Bath
+        - Fabulous Amenities! Must See!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2200</span>
+        <span class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span> </span> </span>
+        </p><p class=\"row\" data-pid=\"4804484954\"> <a href=\"/chc/apa/4804484954.html\"
+        class=\"i\" data-id=\"0:00n0n_aGmhPZbmyfw\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:40\"
+        title=\"Sat 10 Jan 04:40:44 PM (19 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4804484954.html\"
+        data-id=\"4804484954\" class=\"hdrlnk\">3 Bedroom Apt, Rehab - Dogs/Cats OK
+        in Lakeview!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2150</span>
+        <span class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span> </span> </span>
+        </p><p class=\"row\" data-pid=\"4804484969\"> <a href=\"/chc/apa/4804484969.html\"
+        class=\"i\" data-id=\"0:00p0p_fyAMgT0O46y\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:40\"
+        title=\"Sat 10 Jan 04:40:42 PM (19 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4804484969.html\"
+        data-id=\"4804484969\" class=\"hdrlnk\">Rehab 4 Bedroom / 3.5 Bath! Carpet
+        and Hardwood Floors!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2100</span>
+        <span class=\"housing\">/ 4br - </span> <span class=\"pnr\"> <small> (Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4804484969\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4837847931\"> <a href=\"/chc/apa/4837847931.html\"
+        class=\"i\" data-id=\"0:00k0k_gnXWiXFsGO5\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:40\"
+        title=\"Sat 10 Jan 04:40:40 PM (19 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4837847931.html\"
+        data-id=\"4837847931\" class=\"hdrlnk\">LARGE/SUNNY Irving Park / Avondale
+        2 bdrm + office</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1250</span>
+        <span class=\"housing\">/ 2br - 1250ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (4220 w melrose st)</small> <span class=\"px\"> <span class=\"p\">
+        pic <span class=\"maptag\" data-pid=\"4837847931\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4837007368\"> <a href=\"/chc/apa/4837007368.html\"
+        class=\"i\" data-id=\"0:00x0x_g856NiGYAC8\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:40\"
+        title=\"Sat 10 Jan 04:40:18 PM (19 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4837007368.html\"
+        data-id=\"4837007368\" class=\"hdrlnk\">Balcony, rooftop deck, 1 bed plus
+        den, w/d in unit, South Loop</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1900</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - South Loop)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4841398097\"> <a href=\"/chc/apa/4841398097.html\"
+        class=\"i\" data-id=\"0:00w0w_714nwGcB5YA\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:39\"
+        title=\"Sat 10 Jan 04:39:40 PM (20 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841398097.html\"
+        data-id=\"4841398097\" class=\"hdrlnk\">Astounding 2 Bedroom, 1 Bath in Lincoln
+        Park, Available: Now</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1900</span>
+        <span class=\"housing\">/ 2br - 575ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Schubert &amp; Lincoln)</small> <span class=\"px\"> <span class=\"p\">
+        pic <span class=\"maptag\" data-pid=\"4841398097\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4841426123\"> <a href=\"/chc/apa/4841426123.html\"
+        class=\"i\" data-id=\"0:00O0O_bzJTKepsLkM\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:37\"
+        title=\"Sat 10 Jan 04:37:40 PM (22 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841426123.html\"
+        data-id=\"4841426123\" class=\"hdrlnk\">3 bdrm/1bath in Heart of Edison Park</a>
+        </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1500</span> <span
+        class=\"housing\">/ 3br - 1400ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Edison Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4841426123\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4841377755\"> <a href=\"/chc/apa/4841377755.html\"
+        class=\"i\" data-id=\"0:00y0y_jJAc7MuruaZ\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:37\"
+        title=\"Sat 10 Jan 04:37:26 PM (22 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841377755.html\"
+        data-id=\"4841377755\" class=\"hdrlnk\">2BR Heat and cooking gas included</a>
+        </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1275</span> <span
+        class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Uptown)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span> </span> </span>
+        </p><p class=\"row\" data-pid=\"4841397542\"> <a href=\"/chc/apa/4841397542.html\"
+        class=\"i\" data-id=\"0:00s0s_b3AVj8RKXEk\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:37\"
+        title=\"Sat 10 Jan 04:37:17 PM (22 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841397542.html\"
+        data-id=\"4841397542\" class=\"hdrlnk\">This Apartment is a SHOW STOPPER!!,
+        3Bdrm on the Lake!!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1320</span>
+        <span class=\"housing\">/ 3br - 1065ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (S. South Shore Dr.)</small> <span class=\"px\"> <span class=\"p\">
+        pic <span class=\"maptag\" data-pid=\"4841397542\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4841424917\"> <a href=\"/chc/apa/4841424917.html\"
+        class=\"i\" data-id=\"0:00303_7jr5NiJZGzd\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:36\"
+        title=\"Sat 10 Jan 04:36:48 PM (23 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841424917.html\"
+        data-id=\"4841424917\" class=\"hdrlnk\">VINTAGE GREYSTONE FIRST FL.2 BR. &amp;DEN
+        HEAT INC.</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1400</span>
+        <span class=\"housing\">/ 2br - 1000ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (LOGAN SQUARE)</small> <span class=\"px\"> <span class=\"p\"> pic
+        <span class=\"maptag\" data-pid=\"4841424917\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4830708706\"> <a href=\"/chc/apa/4830708706.html\"
+        class=\"i\" data-id=\"0:00O0O_691OmmLznGf\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:36\"
+        title=\"Sat 10 Jan 04:36:02 PM (24 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4830708706.html\"
+        data-id=\"4830708706\" class=\"hdrlnk\">2 BD/2 BA*BALCONY*W/D*1 MONTH FREE
+        RENT*BLUE LINE*JEWEL OSCO*GORGEOUS</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2311</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (WEST
+        LOOP, FULTON RIVER DISTRICT)</small> <span class=\"px\"> <span class=\"p\">
+        pic</span></span> </span> </span> </span> </p><p class=\"row\" data-pid=\"4838404742\">
+        <a href=\"/chc/apa/4838404742.html\" class=\"i\" data-id=\"0:00p0p_futZhCwemJq\"></a>
+        <span class=\"txt\"> <span class=\"star\"></span> <span class=\"pl\"> <time
+        datetime=\"2015-01-10 16:35\" title=\"Sat 10 Jan 04:35:47 PM (24 minutes ago)\">Jan
+        10</time> <a href=\"/chc/apa/4838404742.html\" data-id=\"4838404742\" class=\"hdrlnk\">BRAND
+        NEW 2 BED/1.5 BATH*WOOD FLOORS*CLOSET SPACE WILL BLOW YOUR MIND</a> </span>
+        <span class=\"l2\"> <span class=\"price\">&#x0024;2208</span> <span class=\"housing\">/
+        2br - </span> <span class=\"pnr\"> <small> (STREETERVILLE, NORTHWESTERN)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span> </span> </span>
+        </p><p class=\"row\" data-pid=\"4841410896\"> <a href=\"/chc/apa/4841410896.html\"
+        class=\"i\" data-id=\"0:00I0I_7XH5P3XKfGf\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:35\"
+        title=\"Sat 10 Jan 04:35:42 PM (24 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841410896.html\"
+        data-id=\"4841410896\" class=\"hdrlnk\">Beautiful 3 Bed. Rehabbed. New Wood
+        Flrs. SS Kitchen. In-Unit Laundry!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1525</span>
+        <span class=\"housing\">/ 3br - 1400ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Chicago - Belmont Cragin)</small> <span class=\"px\"> <span class=\"p\">
+        pic</span></span> </span> </span> </span> </p><p class=\"row\" data-pid=\"4841273707\">
+        <a href=\"/chc/apa/4841273707.html\" class=\"i\" data-id=\"0:00f0f_4qIm722ePvr\"></a>
+        <span class=\"txt\"> <span class=\"star\"></span> <span class=\"pl\"> <time
+        datetime=\"2015-01-10 16:34\" title=\"Sat 10 Jan 04:34:35 PM (25 minutes ago)\">Jan
+        10</time> <a href=\"/chc/apa/4841273707.html\" data-id=\"4841273707\" class=\"hdrlnk\">2
+        TWO BEDROOM 2 BATH WEST TOWN</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1250</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (CHICAGO
+        AVE. ASHLAND, OHIO)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4841406364\"> <a href=\"/chc/apa/4841406364.html\"
+        class=\"i\" data-id=\"0:00b0b_3sFxdIK6E6s\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:34\"
+        title=\"Sat 10 Jan 04:34:27 PM (25 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841406364.html\"
+        data-id=\"4841406364\" class=\"hdrlnk\">Your Most Favorite Home Awaits You!</a>
+        </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1350</span> <span
+        class=\"housing\">/ 2br - 1476ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Aurora)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4841406364\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4834524784\"> <a href=\"/chc/apa/4834524784.html\"
+        class=\"i\" data-id=\"0:00303_7jr5NiJZGzd\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:33\"
+        title=\"Sat 10 Jan 04:33:20 PM (26 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4834524784.html\"
+        data-id=\"4834524784\" class=\"hdrlnk\">VINTAGE GREYSTONE FIRST FL.2 BR.&amp;
+        DEN HEAT INC.</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1400</span>
+        <span class=\"housing\">/ 2br - 1000ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (LOGAN SQUARE)</small> <span class=\"px\"> <span class=\"p\"> pic
+        <span class=\"maptag\" data-pid=\"4834524784\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4824237299\"> <a href=\"/chc/apa/4824237299.html\"
+        class=\"i\" data-id=\"0:00W0W_8hJWdVcMQOe\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:32\"
+        title=\"Sat 10 Jan 04:32:51 PM (27 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4824237299.html\"
+        data-id=\"4824237299\" class=\"hdrlnk\">1/2 block to Southport Corridor in
+        Lakeview! Easy walk to Brown Line!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1495</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4824237299\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4801452925\"> <a href=\"/chc/apa/4801452925.html\"
+        class=\"i\" data-id=\"0:00000_4LujjhCqeQB\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:31\"
+        title=\"Sat 10 Jan 04:31:10 PM (29 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4801452925.html\"
+        data-id=\"4801452925\" class=\"hdrlnk\">New Gut Rehab Lakeview</a> </span>
+        <span class=\"l2\"> <span class=\"price\">&#x0024;1595</span> <span class=\"housing\">/
+        2br - 1100ft<sup>2</sup> - </span> <span class=\"pnr\"> <small> (Ashland/Wellington)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4801452925\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4829337628\"> <a href=\"/chc/apa/4829337628.html\"
+        class=\"i\"></a> <span class=\"txt\"> <span class=\"star\"></span> <span class=\"pl\">
+        <time datetime=\"2015-01-10 16:30\" title=\"Sat 10 Jan 04:30:52 PM (29 minutes
+        ago)\">Jan 10</time> <a href=\"/chc/apa/4829337628.html\" data-id=\"4829337628\"
+        class=\"hdrlnk\">2 bed 2 bath, balcony, laundry in unit, HW floors</a> </span>
+        <span class=\"l2\"> <span class=\"price\">&#x0024;1700</span> <span class=\"housing\">/
+        2br - </span> <span class=\"pnr\"> <small> (953 W. 18th St.)</small> <span
+        class=\"px\"> <span class=\"p\"> <span class=\"maptag\" data-pid=\"4829337628\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4832238601\"> <a href=\"/chc/apa/4832238601.html\"
+        class=\"i\" data-id=\"0:00h0h_c4AUIVDeMtT\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:30\"
+        title=\"Sat 10 Jan 04:30:45 PM (29 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4832238601.html\"
+        data-id=\"4832238601\" class=\"hdrlnk\">2 bed 2 bath, balcony, laundry in
+        unit, HW floors</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1700</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (953
+        W. 18th St.)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4832238601\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4812374716\"> <a href=\"/chc/apa/4812374716.html\"
+        class=\"i\" data-id=\"0:00M0M_lYvaxD0ayVa\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:30\"
+        title=\"Sat 10 Jan 04:30:37 PM (29 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4812374716.html\"
+        data-id=\"4812374716\" class=\"hdrlnk\">5 bedroom, central heat/air with hardwood
+        floors</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1500</span>
+        <span class=\"housing\">/ 5br - </span> <span class=\"pnr\"> <small> (1737
+        W. 18th St.)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4812374716\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4838480216\"> <a href=\"/chc/apa/4838480216.html\"
+        class=\"i\" data-id=\"0:01212_8RA5bJheSBt\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:30\"
+        title=\"Sat 10 Jan 04:30:32 PM (29 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4838480216.html\"
+        data-id=\"4838480216\" class=\"hdrlnk\">3 bedroom, hardwood floors, central
+        heat/air, washer/dryer</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1200</span>
+        <span class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (2111
+        S. Fairfield Ave)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4838480216\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4841394751\"> <a href=\"/chc/apa/4841394751.html\"
+        class=\"i\" data-id=\"0:01717_pNYf7TlIL7\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:30\"
+        title=\"Sat 10 Jan 04:30:17 PM (29 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841394751.html\"
+        data-id=\"4841394751\" class=\"hdrlnk\">Spacious brand new HUGH 3 bedrooms
+        all high end in portage park</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1480</span>
+        <span class=\"housing\">/ 3br - 1500ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (portage park/belmont central)</small> <span class=\"px\"> <span class=\"p\">
+        pic <span class=\"maptag\" data-pid=\"4841394751\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4841414038\"> <a href=\"/chc/apa/4841414038.html\"
+        class=\"i\" data-id=\"0:00X0X_aW4yduU1WrT\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:29\"
+        title=\"Sat 10 Jan 04:29:05 PM (31 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841414038.html\"
+        data-id=\"4841414038\" class=\"hdrlnk\">Roscoe Village 2BR</a> </span> <span
+        class=\"l2\"> <span class=\"price\">&#x0024;1350</span> <span class=\"housing\">/
+        2br - </span> <span class=\"pnr\"> <small> (Roscoe Village)</small> <span
+        class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4841414038\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4841293510\"> <a href=\"/chc/apa/4841293510.html\"
+        class=\"i\" data-id=\"0:00O0O_eb9Q25XzjPU\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:28\"
+        title=\"Sat 10 Jan 04:28:14 PM (31 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841293510.html\"
+        data-id=\"4841293510\" class=\"hdrlnk\">Ashland 2 Bed Lakeview</a> </span>
+        <span class=\"l2\"> <span class=\"price\">&#x0024;1595</span> <span class=\"housing\">/
+        2br - 1100ft<sup>2</sup> - </span> <span class=\"pnr\"> <small> (Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4841293510\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4841411683\"> <a href=\"/chc/apa/4841411683.html\"
+        class=\"i\" data-id=\"0:00p0p_e9J5lvjRpxH\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:27\"
+        title=\"Sat 10 Jan 04:27:19 PM (32 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841411683.html\"
+        data-id=\"4841411683\" class=\"hdrlnk\">Top floor 2bed on Armitage &amp; Mohawk
+        w/ heat incl, NO DEPOSIT, dining!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1840</span>
+        <span class=\"housing\">/ 2br - 1100ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Lincoln Park)</small> <span class=\"px\"> <span class=\"p\"> pic
+        <span class=\"maptag\" data-pid=\"4841411683\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4829611161\"> <a href=\"/chc/apa/4829611161.html\"
+        class=\"i\" data-id=\"0:00b0b_ifVrcMg4Y21\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:25\"
+        title=\"Sat 10 Jan 04:25:06 PM (35 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4829611161.html\"
+        data-id=\"4829611161\" class=\"hdrlnk\">Albany Park / Irving Park - Large
+        1BR with Dining Room</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1250</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Albany Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4829611161\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4829594358\"> <a href=\"/chc/apa/4829594358.html\"
+        class=\"i\" data-id=\"0:00O0O_2yI8vFCHoGa\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:24\"
+        title=\"Sat 10 Jan 04:24:17 PM (35 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4829594358.html\"
+        data-id=\"4829594358\" class=\"hdrlnk\">Rahabbed Ravenswood 2BR Near Brown
+        Line</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1450</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Lincoln Square)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4829594358\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4823187628\"> <a href=\"/chc/apa/4823187628.html\"
+        class=\"i\"></a> <span class=\"txt\"> <span class=\"star\"></span> <span class=\"pl\">
+        <time datetime=\"2015-01-10 16:23\" title=\"Sat 10 Jan 04:23:45 PM (36 minutes
+        ago)\">Jan 10</time> <a href=\"/chc/apa/4823187628.html\" data-id=\"4823187628\"
+        class=\"hdrlnk\">Gold Coast apt no sec dep SS Apps pet friendly</a> </span>
+        <span class=\"l2\"> <span class=\"price\">&#x0024;1995</span> <span class=\"housing\">/
+        2br - </span> <span class=\"pnr\"> <small> (Gold Coast)</small> <span class=\"px\">
+        <span class=\"p\"> <span class=\"maptag\" data-pid=\"4823187628\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4836872810\"> <a href=\"/chc/apa/4836872810.html\"
+        class=\"i\" data-id=\"0:00m0m_6SFGu32Qdh5\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:23\"
+        title=\"Sat 10 Jan 04:23:44 PM (36 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4836872810.html\"
+        data-id=\"4836872810\" class=\"hdrlnk\">3 Bd on North Spaulding Ave., Pet
+        Ok, Laundry in building, Photos</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1995</span>
+        <span class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Logan Square)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4836872810\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4823188496\"> <a href=\"/chc/apa/4823188496.html\"
+        class=\"i\"></a> <span class=\"txt\"> <span class=\"star\"></span> <span class=\"pl\">
+        <time datetime=\"2015-01-10 16:23\" title=\"Sat 10 Jan 04:23:15 PM (36 minutes
+        ago)\">Jan 10</time> <a href=\"/chc/apa/4823188496.html\" data-id=\"4823188496\"
+        class=\"hdrlnk\">Renovated Gold Coast apt no sec dep SS Apps pet friendly</a>
+        </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1795</span> <span
+        class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Gold Coast)</small>
+        <span class=\"px\"> <span class=\"p\"> <span class=\"maptag\" data-pid=\"4823188496\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4836784492\"> <a href=\"/chc/apa/4836784492.html\"
+        class=\"i\" data-id=\"0:00808_6HZ5c9WaLhQ\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:22\"
+        title=\"Sat 10 Jan 04:22:59 PM (37 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4836784492.html\"
+        data-id=\"4836784492\" class=\"hdrlnk\">Gut Rehab 3BR/2BA Duplex - SS, Granite,
+        WD, DW, Hdwd...</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1600</span>
+        <span class=\"housing\">/ 3br - 1200ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Chicago - Rogers Park)</small> <span class=\"px\"> <span class=\"p\">
+        pic <span class=\"maptag\" data-pid=\"4836784492\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4833345362\"> <a href=\"/chc/apa/4833345362.html\"
+        class=\"i\" data-id=\"0:00j0j_fgT3nmewI8Y\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:22\"
+        title=\"Sat 10 Jan 04:22:25 PM (37 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4833345362.html\"
+        data-id=\"4833345362\" class=\"hdrlnk\">2 month sublet in Wicker Park/Ukrainian
+        Village</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1200</span>
+        <span class=\"housing\">/ 2br - 900ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Damen &amp; Division)</small> <span class=\"px\"> <span class=\"p\">
+        pic <span class=\"maptag\" data-pid=\"4833345362\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4816370268\"> <a href=\"/chc/apa/4816370268.html\"
+        class=\"i\" data-id=\"0:00G0G_kXw8388ux7C\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:22\"
+        title=\"Sat 10 Jan 04:22:23 PM (37 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4816370268.html\"
+        data-id=\"4816370268\" class=\"hdrlnk\">DOG FRIENDLY 2 BD/2BA*INCREDIBLE LAKE
+        VIEWS*GOLD COAST*CLOSET SPACE</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2399</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (GOLD
+        COAST)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4816370268\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4808793279\"> <a href=\"/chc/apa/4808793279.html\"
+        class=\"i\" data-id=\"0:00O0O_691OmmLznGf\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:20\"
+        title=\"Sat 10 Jan 04:20:45 PM (39 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4808793279.html\"
+        data-id=\"4808793279\" class=\"hdrlnk\">2 BD/2 BA*BALCONY*W/D*1 MONTH FREE
+        RENT*BLUE LINE*GR8 KITCHEN*JEWEL</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2306</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (WEST
+        LOOP, FULTON RIVER DISTRICT)</small> <span class=\"px\"> <span class=\"p\">
+        pic</span></span> </span> </span> </span> </p><p class=\"row\" data-pid=\"4829579854\">
+        <a href=\"/chc/apa/4829579854.html\" class=\"i\" data-id=\"0:00H0H_3f8e9DGYb8P\"></a>
+        <span class=\"txt\"> <span class=\"star\"></span> <span class=\"pl\"> <time
+        datetime=\"2015-01-10 16:20\" title=\"Sat 10 Jan 04:20:33 PM (39 minutes ago)\">Jan
+        10</time> <a href=\"/chc/apa/4829579854.html\" data-id=\"4829579854\" class=\"hdrlnk\">Rahabbed
+        Ravenswood 2BR Near Brown Line</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1450</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Lincoln Square)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4829579854\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4841402110\"> <a href=\"/chc/apa/4841402110.html\"
+        class=\"i\" data-id=\"0:00L0L_2prK3MmysgI\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:20\"
+        title=\"Sat 10 Jan 04:20:33 PM (39 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841402110.html\"
+        data-id=\"4841402110\" class=\"hdrlnk\">2 Bedroom East Pilsen near UIC</a>
+        </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1290</span> <span
+        class=\"housing\">/ 2br - 900ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Canalport)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4841402110\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4838423899\"> <a href=\"/chc/apa/4838423899.html\"
+        class=\"i\" data-id=\"0:00V0V_4AOkfqfif0w\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:20\"
+        title=\"Sat 10 Jan 04:20:24 PM (39 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4838423899.html\"
+        data-id=\"4838423899\" class=\"hdrlnk\">LEASE UP SPECIAL ON 2-BED, 3-BED,
+        AND 4-BED GUT REHABBED UNITS!!!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1575</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> ((HYDE
+        PARK/KENWOOD (5444 S. WOODLAWN))</small> <span class=\"px\"> <span class=\"p\">
+        pic</span></span> </span> </span> </span> </p><p class=\"row\" data-pid=\"4832231025\">
+        <a href=\"/chc/apa/4832231025.html\" class=\"i\" data-id=\"0:00202_ixFlSFAZQ13\"></a>
+        <span class=\"txt\"> <span class=\"star\"></span> <span class=\"pl\"> <time
+        datetime=\"2015-01-10 16:20\" title=\"Sat 10 Jan 04:20:05 PM (40 minutes ago)\">Jan
+        10</time> <a href=\"/chc/apa/4832231025.html\" data-id=\"4832231025\" class=\"hdrlnk\">LEASE
+        UP SPECIAL ON 2-BED, 3-BED, AND 4-BED GUT REHABBED UNITS!!!</a> </span> <span
+        class=\"l2\"> <span class=\"price\">&#x0024;2200</span> <span class=\"housing\">/
+        3br - </span> <span class=\"pnr\"> <small> (HYDE PARK/KENWOOD (5444 S. WOODLAWN))</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4832231025\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4832070562\"> <a href=\"/chc/apa/4832070562.html\"
+        class=\"i\" data-id=\"0:01313_3kxI2jz6uXe\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:19\"
+        title=\"Sat 10 Jan 04:19:35 PM (40 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4832070562.html\"
+        data-id=\"4832070562\" class=\"hdrlnk\">BEAUTIFUL 3 BED, 2 BATH WEST LOOP/NEAR
+        WEST SIDE UNIT W/LOTS UPGRADES!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1695</span>
+        <span class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (WEST
+        LOOP/NEAR WEST SIDE)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4832070562\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4823200120\"> <a href=\"/chc/apa/4823200120.html\"
+        class=\"i\" data-id=\"0:00T0T_lJ1fOX7ZMp5\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:19\"
+        title=\"Sat 10 Jan 04:19:30 PM (40 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4823200120.html\"
+        data-id=\"4823200120\" class=\"hdrlnk\">The Best Deal in Old Town! Steps to
+        Red Line!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1795</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Gold
+        Coast)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4823200120\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4831319943\"> <a href=\"/chc/apa/4831319943.html\"
+        class=\"i\" data-id=\"0:00m0m_jYkXTFJwOeO\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:19\"
+        title=\"Sat 10 Jan 04:19:06 PM (41 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4831319943.html\"
+        data-id=\"4831319943\" class=\"hdrlnk\">BEAUTIFUL 2 BED, 2 BATH LOOP LOFT
+        ~ AVAILABLE NOW!!!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2000</span>
+        <span class=\"housing\">/ 2br - 1200ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (THE LOOP)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4831319943\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4831316853\"> <a href=\"/chc/apa/4831316853.html\"
+        class=\"i\" data-id=\"0:00101_f1vfZTVl67H\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:18\"
+        title=\"Sat 10 Jan 04:18:46 PM (41 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4831316853.html\"
+        data-id=\"4831316853\" class=\"hdrlnk\">HYDE PARK 3 BED, 2 BATH ~ MUST SEE!!!</a>
+        </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2000</span> <span
+        class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (HYDE PARK
+        (5135 S. Drexel))</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4831316853\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4841386811\"> <a href=\"/chc/apa/4841386811.html\"
+        class=\"i\" data-id=\"0:00f0f_l3IbeJh0TUk\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:18\"
+        title=\"Sat 10 Jan 04:18:40 PM (41 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841386811.html\"
+        data-id=\"4841386811\" class=\"hdrlnk\">Nov. 1st|Large Bedrooms|Utilities
+        INC|Swimming Pool|Rooftop|Garage Parking|Prime</a> </span> <span class=\"l2\">
+        <span class=\"price\">&#x0024;1350</span> <span class=\"housing\">/ 2br -
+        1000ft<sup>2</sup> - </span> <span class=\"pnr\"> <span class=\"px\"> <span
+        class=\"p\"> pic <span class=\"maptag\" data-pid=\"4841386811\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4829703872\"> <a href=\"/chc/apa/4829703872.html\"
+        class=\"i\" data-id=\"0:00O0O_2yI8vFCHoGa\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:17\"
+        title=\"Sat 10 Jan 04:17:57 PM (42 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4829703872.html\"
+        data-id=\"4829703872\" class=\"hdrlnk\">Rahabbed Ravenswood 2BR Near Brown
+        Line</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1450</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Lincoln Square)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4829703872\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4829593682\"> <a href=\"/chc/apa/4829593682.html\"
+        class=\"i\" data-id=\"0:00b0b_ifVrcMg4Y21\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:16\"
+        title=\"Sat 10 Jan 04:16:59 PM (43 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4829593682.html\"
+        data-id=\"4829593682\" class=\"hdrlnk\">Albany Park / Irving Park - Large
+        1BR with Dining Room</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1250</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Albany Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4829593682\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4841396680\"> <a href=\"/chc/apa/4841396680.html\"
+        class=\"i\" data-id=\"0:01717_f4oEqIeSRhc\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:16\"
+        title=\"Sat 10 Jan 04:16:43 PM (43 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841396680.html\"
+        data-id=\"4841396680\" class=\"hdrlnk\">Fully landscaped park area - Deep
+        soaking tub - Convenient location</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2375</span>
+        <span class=\"housing\">/ 2br - 1010ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Chicago)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4841396680\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4833438581\"> <a href=\"/chc/apa/4833438581.html\"
+        class=\"i\" data-id=\"0:00707_4Nq3KCvRF2Y\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:16\"
+        title=\"Sat 10 Jan 04:16:30 PM (43 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4833438581.html\"
+        data-id=\"4833438581\" class=\"hdrlnk\">Rahabbed Ravenswood 2BR Near Brown
+        Line</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1450</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Lincoln Square)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4833438581\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4831981270\"> <a href=\"/chc/apa/4831981270.html\"
+        class=\"i\" data-id=\"0:00L0L_2prK3MmysgI\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:15\"
+        title=\"Sat 10 Jan 04:15:25 PM (44 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4831981270.html\"
+        data-id=\"4831981270\" class=\"hdrlnk\">East Pilsen near UIC</a> </span> <span
+        class=\"l2\"> <span class=\"price\">&#x0024;1290</span> <span class=\"housing\">/
+        2br - 950ft<sup>2</sup> - </span> <span class=\"pnr\"> <small> (Canalport)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4831981270\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4821069319\"> <a href=\"/chc/apa/4821069319.html\"
+        class=\"i\" data-id=\"0:00e0e_f6axmJsELnP\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:14\"
+        title=\"Sat 10 Jan 04:14:57 PM (45 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4821069319.html\"
+        data-id=\"4821069319\" class=\"hdrlnk\">Brand new rehab - great location!!!</a>
+        </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1750</span> <span
+        class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4821069319\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4833422449\"> <a href=\"/chc/apa/4833422449.html\"
+        class=\"i\" data-id=\"0:00b0b_ifVrcMg4Y21\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:14\"
+        title=\"Sat 10 Jan 04:14:54 PM (45 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4833422449.html\"
+        data-id=\"4833422449\" class=\"hdrlnk\">Albany Park / Irving Park - Large
+        1BR with Dining Room</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1250</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Albany Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4833422449\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4841339553\"> <a href=\"/chc/apa/4841339553.html\"
+        class=\"i\" data-id=\"0:00j0j_ll7pivl715q\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:14\"
+        title=\"Sat 10 Jan 04:14:40 PM (45 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841339553.html\"
+        data-id=\"4841339553\" class=\"hdrlnk\">Lakeview -- 3 BED REHAB w/ DISHWASHER,
+        GRANITE, STAINLESS</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2235</span>
+        <span class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (Lakeview
+        / Wrigleyville)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4841339553\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4829529704\"> <a href=\"/chc/apa/4829529704.html\"
+        class=\"i\" data-id=\"0:00e0e_f6axmJsELnP\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:14\"
+        title=\"Sat 10 Jan 04:14:25 PM (45 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4829529704.html\"
+        data-id=\"4829529704\" class=\"hdrlnk\">Brand new rehab - great location!!!</a>
+        </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1750</span> <span
+        class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4829529704\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4836737952\"> <a href=\"/chc/apa/4836737952.html\"
+        class=\"i\" data-id=\"0:00b0b_ifVrcMg4Y21\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:14\"
+        title=\"Sat 10 Jan 04:14:09 PM (46 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4836737952.html\"
+        data-id=\"4836737952\" class=\"hdrlnk\">Albany Park / Irving Park - Large
+        1BR with Dining Room</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1250</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Albany Park)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4841382970\"> <a href=\"/chc/apa/4841382970.html\"
+        class=\"i\" data-id=\"0:00C0C_cE62ake6Fe9\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:14\"
+        title=\"Sat 10 Jan 04:14:02 PM (46 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841382970.html\"
+        data-id=\"4841382970\" class=\"hdrlnk\">New modern apartment, garage parking
+        available</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1725</span>
+        <span class=\"housing\">/ 2br - 1750ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Edgewater)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4812061606\"> <a href=\"/chc/apa/4812061606.html\"
+        class=\"i\" data-id=\"0:00b0b_gIutMevBjOj\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:09\"
+        title=\"Sat 10 Jan 04:09:31 PM (50 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4812061606.html\"
+        data-id=\"4812061606\" class=\"hdrlnk\">Call About Our Rent Specials $500
+        Off 2nd Month Rent + No Deposit/Fee!</a> </span> <span class=\"l2\"> <span
+        class=\"price\">&#x0024;1795</span> <span class=\"housing\">/ 2br - </span>
+        <span class=\"pnr\"> <small> (Lakeview)</small> <span class=\"px\"> <span
+        class=\"p\"> pic <span class=\"maptag\" data-pid=\"4812061606\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4825748405\"> <a href=\"/chc/apa/4825748405.html\"
+        class=\"i\" data-id=\"0:00O0O_b6ai88pZCMi\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:09\"
+        title=\"Sat 10 Jan 04:09:21 PM (50 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4825748405.html\"
+        data-id=\"4825748405\" class=\"hdrlnk\">2 Bed/2 Bath Condo in Lincoln Park!
+        close to College &amp; Transportation</a> </span> <span class=\"l2\"> <span
+        class=\"price\">&#x0024;2300</span> <span class=\"housing\">/ 2br - </span>
+        <span class=\"pnr\"> <small> (Lincoln Park / De Paul)</small> <span class=\"px\">
+        <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4825748405\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4833443745\"> <a href=\"/chc/apa/4833443745.html\"
+        class=\"i\" data-id=\"0:00H0H_3f8e9DGYb8P\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:07\"
+        title=\"Sat 10 Jan 04:07:43 PM (52 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4833443745.html\"
+        data-id=\"4833443745\" class=\"hdrlnk\">Rahabbed Ravenswood 2BR Near Brown
+        Line</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1450</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Lincoln Square)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4833443745\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4841364207\"> <a href=\"/chc/apa/4841364207.html\"
+        class=\"i\"></a> <span class=\"txt\"> <span class=\"star\"></span> <span class=\"pl\">
+        <time datetime=\"2015-01-10 16:06\" title=\"Sat 10 Jan 04:06:09 PM (54 minutes
+        ago)\">Jan 10</time> <a href=\"/chc/apa/4841364207.html\" data-id=\"4841364207\"
+        class=\"hdrlnk\">1st Floor- Hot Spot-New Kitchen-Storage-High Ceilings-Dining
+        Area</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1600</span>
+        <span class=\"housing\">/ 2br - 1200ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (W. Cortez at N. Ashland)</small> <span class=\"px\"> <span class=\"p\">
+        <span class=\"maptag\" data-pid=\"4841364207\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4841372211\"> <a href=\"/chc/apa/4841372211.html\"
+        class=\"i\" data-id=\"0:00V0V_qqswQgJ191\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:05\"
+        title=\"Sat 10 Jan 04:05:37 PM (54 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841372211.html\"
+        data-id=\"4841372211\" class=\"hdrlnk\">Available NOW|Gorgeous Grey-Stone|Top
+        Floor|Dishwasher|Heat INC|Prime Location</a> </span> <span class=\"l2\"> <span
+        class=\"price\">&#x0024;1495</span> <span class=\"housing\">/ 2br - 850ft<sup>2</sup>
+        - </span> <span class=\"pnr\"> <span class=\"px\"> <span class=\"p\"> pic
+        <span class=\"maptag\" data-pid=\"4841372211\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4828831263\"> <a href=\"/chc/apa/4828831263.html\"
+        class=\"i\" data-id=\"0:00303_2BODc1VG0t2\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:05\"
+        title=\"Sat 10 Jan 04:05:32 PM (54 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4828831263.html\"
+        data-id=\"4828831263\" class=\"hdrlnk\">Affordable apt in heart of Lakeview!
+        Wood floors, 2 blks to Red Line</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1430</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4828831263\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4836742405\"> <a href=\"/chc/apa/4836742405.html\"
+        class=\"i\" data-id=\"0:00b0b_ifVrcMg4Y21\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:04\"
+        title=\"Sat 10 Jan 04:04:43 PM (55 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4836742405.html\"
+        data-id=\"4836742405\" class=\"hdrlnk\">Albany Park / Irving Park - Large
+        1BR with Dining Room</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1250</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Albany Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4836742405\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4841368771\"> <a href=\"/chc/apa/4841368771.html\"
+        class=\"i\" data-id=\"0:00R0R_dfgG0AsMzWI\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:03\"
+        title=\"Sat 10 Jan 04:03:17 PM (56 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841368771.html\"
+        data-id=\"4841368771\" class=\"hdrlnk\">Two bedroom apts in Hyde Park!</a>
+        </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1312</span> <span
+        class=\"housing\">/ 2br - 850ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Hyde Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4841368771\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4841365588\"> <a href=\"/chc/apa/4841365588.html\"
+        class=\"i\" data-id=\"0:00L0L_9An0rzODYfH\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:03\"
+        title=\"Sat 10 Jan 04:03:08 PM (57 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841365588.html\"
+        data-id=\"4841365588\" class=\"hdrlnk\">3Bed1Bath Super Rehab-Unit landry-Central
+        Heat/Air-Clean Cut Kitchen!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1400</span>
+        <span class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (W. Division
+        at N. Rockwell)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4841365588\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4841363856\"> <a href=\"/chc/apa/4841363856.html\"
+        class=\"i\" data-id=\"0:00303_4MxMEuTaBZk\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:02\"
+        title=\"Sat 10 Jan 04:02:54 PM (57 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841363856.html\"
+        data-id=\"4841363856\" class=\"hdrlnk\">Award Winning Building offering a
+        great renovated apartment!!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1675</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Lincoln
+        Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4841363856\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4841359294\"> <a href=\"/chc/apa/4841359294.html\"
+        class=\"i\" data-id=\"0:00b0b_kitOCEtw24M\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:02\"
+        title=\"Sat 10 Jan 04:02:50 PM (57 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841359294.html\"
+        data-id=\"4841359294\" class=\"hdrlnk\">Phenomenal Loft-Free Cable and internet-Nice
+        Views-Elevator-RoofTop!!!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1900</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (124
+        W. Polk)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4841359294\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4841340775\"> <a href=\"/chc/apa/4841340775.html\"
+        class=\"i\" data-id=\"0:00a0a_dAMr6qOi1KF\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:02\"
+        title=\"Sat 10 Jan 04:02:28 PM (57 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841340775.html\"
+        data-id=\"4841340775\" class=\"hdrlnk\">Broadway/Addison remodeled 3br, 1
+        free month offered !!!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2395</span>
+        <span class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span> </span> </span>
+        </p><p class=\"row\" data-pid=\"4841366261\"> <a href=\"/chc/apa/4841366261.html\"
+        class=\"i\" data-id=\"0:01212_cKdxWRXWjJi\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:01\"
+        title=\"Sat 10 Jan 04:01:35 PM (58 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4841366261.html\"
+        data-id=\"4841366261\" class=\"hdrlnk\">Brand New Listing 2 Bedroom, 1 Bath
+        in Buena Park, Available: Now</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1300</span>
+        <span class=\"housing\">/ 2br - 900ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Agatite &amp; hazel)</small> <span class=\"px\"> <span class=\"p\">
+        pic <span class=\"maptag\" data-pid=\"4841366261\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4834660730\"> <a href=\"/chc/apa/4834660730.html\"
+        class=\"i\" data-id=\"0:00b0b_ifVrcMg4Y21\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:01\"
+        title=\"Sat 10 Jan 04:01:30 PM (58 minutes ago)\">Jan 10</time> <a href=\"/chc/apa/4834660730.html\"
+        data-id=\"4834660730\" class=\"hdrlnk\">Albany Park / Irving Park - Large
+        1BR with Dining Room</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1250</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Albany Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4834660730\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4836727943\"> <a href=\"/chc/apa/4836727943.html\"
+        class=\"i\" data-id=\"0:00w0w_d6n1TkrXPVh\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 16:00\"
+        title=\"Sat 10 Jan 04:00:11 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4836727943.html\"
+        data-id=\"4836727943\" class=\"hdrlnk\">Rehabbed Ravenswood 1BR - Granite,
+        Stainless, Diswasher</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1450</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Ravenswood)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4836727943\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4836499351\"> <a href=\"/chc/apa/4836499351.html\"
+        class=\"i\" data-id=\"0:00n0n_T9vUwYwVeg\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 15:59\"
+        title=\"Sat 10 Jan 03:59:45 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4836499351.html\"
+        data-id=\"4836499351\" class=\"hdrlnk\">West Rogers Park 3BR/2BA w/ Balcony,
+        In-Unit Laundry</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1550</span>
+        <span class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (Chicago
+        - West Rogers Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4836499351\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4837765971\"> <a href=\"/chc/apa/4837765971.html\"
+        class=\"i\" data-id=\"0:00l0l_8E3hh5o0CzB\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 15:59\"
+        title=\"Sat 10 Jan 03:59:32 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4837765971.html\"
+        data-id=\"4837765971\" class=\"hdrlnk\">BEAUTIFULLY UPDATED 2 BED/ 1 BATH
+        - HRDWD FLRS, UPDATED KITCHEN</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2300</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Lakeview/
+        Wrigleyville)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4837765971\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4841371985\"> <a href=\"/chc/apa/4841371985.html\"
+        class=\"i\" data-id=\"0:00W0W_5fKrLIk5eJM\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 15:59\"
+        title=\"Sat 10 Jan 03:59:32 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4841371985.html\"
+        data-id=\"4841371985\" class=\"hdrlnk\">Glorious 2 Bedroom-SSAppliances-RooftopDeck-Formal
+        Dining- Pets OK!</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1275</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (N. Francisco
+        at W. Chicago)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4841371985\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4836502872\"> <a href=\"/chc/apa/4836502872.html\"
+        class=\"i\" data-id=\"0:00N0N_9FM9pnw74JK\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 15:59\"
+        title=\"Sat 10 Jan 03:59:19 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4836502872.html\"
+        data-id=\"4836502872\" class=\"hdrlnk\">3 Bd on North Damen Ave., Hardwood
+        Floors, Stainless Steel Appliances</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2100</span>
+        <span class=\"housing\">/ 3br - </span> <span class=\"pnr\"> <small> (Chicago
+        - North Center)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4836502872\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4814650501\"> <a href=\"/chc/apa/4814650501.html\"
+        class=\"i\" data-id=\"0:00J0J_clIvkHYDWFA\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 15:59\"
+        title=\"Sat 10 Jan 03:59:01 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4814650501.html\"
+        data-id=\"4814650501\" class=\"hdrlnk\">BEAUTIFUL 2 BED/ 2 BATH - GRANITE,
+        SS, W/D, BALCONY</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2228</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (PRINTERS
+        ROW/DOWNTOWN/LOOP)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4814650501\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4841342794\"> <a href=\"/chc/apa/4841342794.html\"
+        class=\"i\" data-id=\"0:00M0M_euUMYjyxPPU\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 15:58\"
+        title=\"Sat 10 Jan 03:58:48 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4841342794.html\"
+        data-id=\"4841342794\" class=\"hdrlnk\">Brand New Renovation with Beautiful
+        Lake &amp; Navy Pier Views</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2000</span>
+        <span class=\"housing\">/ 2br - 1027ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Hyde Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span
+        class=\"maptag\" data-pid=\"4841342794\">map</span></span></span> </span>
+        </span> </span> </p><p class=\"row\" data-pid=\"4836490033\"> <a href=\"/chc/apa/4836490033.html\"
+        class=\"i\" data-id=\"0:00b0b_ifVrcMg4Y21\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 15:58\"
+        title=\"Sat 10 Jan 03:58:44 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4836490033.html\"
+        data-id=\"4836490033\" class=\"hdrlnk\">Albany Park / Irving Park - Large
+        1BR with Dining Room</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1250</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Chicago
+        - Albany Park)</small> <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\"
+        data-pid=\"4836490033\">map</span></span></span> </span> </span> </span> </p><p
+        class=\"row\" data-pid=\"4834662285\"> <a href=\"/chc/apa/4834662285.html\"
+        class=\"i\" data-id=\"0:01010_dcCAFKHbgIY\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 15:58\"
+        title=\"Sat 10 Jan 03:58:41 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4834662285.html\"
+        data-id=\"4834662285\" class=\"hdrlnk\">Newly Renovated 2 Bed~Steps to Wrigley~In
+        Unit W/D~Granite/SS~Hardwood</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1700</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (Wrigleyville/Lakeview)</small>
+        <span class=\"px\"> <span class=\"p\"> pic <span class=\"maptag\" data-pid=\"4834662285\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4834665144\"> <a href=\"/chc/apa/4834665144.html\"
+        class=\"i\" data-id=\"0:00k0k_iklqCZ4W6Oc\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 15:58\"
+        title=\"Sat 10 Jan 03:58:37 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4834665144.html\"
+        data-id=\"4834665144\" class=\"hdrlnk\">Renovated Fulton River 2 BR Loft~Granite/SS~High
+        Ceilings~Fireplace</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;2275</span>
+        <span class=\"housing\">/ 2br - </span> <span class=\"pnr\"> <small> (FULTON
+        RIVER/ WEST LOOP/ OLD TOWN)</small> <span class=\"px\"> <span class=\"p\">
+        pic <span class=\"maptag\" data-pid=\"4834665144\">map</span></span></span>
+        </span> </span> </span> </p><p class=\"row\" data-pid=\"4834778319\"> <a href=\"/chc/apa/4834778319.html\"
+        class=\"i\" data-id=\"0:00e0e_cz4g8a63Vjy\"></a> <span class=\"txt\"> <span
+        class=\"star\"></span> <span class=\"pl\"> <time datetime=\"2015-01-10 15:58\"
+        title=\"Sat 10 Jan 03:58:06 PM (1 hours ago)\">Jan 10</time> <a href=\"/chc/apa/4834778319.html\"
+        data-id=\"4834778319\" class=\"hdrlnk\">Avail now | 1 block to EL | HWFL |
+        DW | vintage | Heat incl</a> </span> <span class=\"l2\"> <span class=\"price\">&#x0024;1425</span>
+        <span class=\"housing\">/ 2br - 980ft<sup>2</sup> - </span> <span class=\"pnr\">
+        <small> (Irving Park Rd/Sheridan Lakeview)</small> <span class=\"px\"> <span
+        class=\"p\"> pic <span class=\"maptag\" data-pid=\"4834778319\">map</span></span></span>
+        </span> </span> </span> </p>\n            <div id=\"mapcontainer\" data-arealat=\"41.849998\"
+        data-arealon=\"-87.650002\">\n    <div id=\"noresult_overlay\"></div>\n        <div
+        id=\"noresult_text\">\n            <span class=\"message\">No mappable items
+        found</span>\n        </div>\n    <div id=\"map\" class=\"loading\"><div class=\"closeFS\">&times;</div></div>\n</div>\n
+        \           \n            <div class=\"toc_legend bottom\">\n              <div
+        class=\"center\">\n                <div class=\"tocview\">\n                  <span
+        class=\"buttongroup\"><a class=\"backtotop button\" href=\"#pagecontainer\">^
+        back to top</a></span>\n                </div>\n                <div class=\"tocsort\">\n
+        \                 <span class=\"buttongroup\"><a class=\"backtotop button\"
+        href=\"#pagecontainer\">^ back to top</a></span>\n                </div>\n
+        \               <span class=\"paginator buttongroup  firstpage\"><span class=\"resulttotal\">displaying
+        <span class='displaycount'>...</span> of <span class=\"totalcount\">12421</span>
+        postings</span><span class=\"buttons\"><a href=\"/search/chc/apa?bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200\"
+        class=\"button first\" title=\"first page\">&lt;&lt;</a><span class=\"button
+        first\" title=\"first page\">&lt;&lt;</span><a href=\"/search/chc/apa?bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200\"
+        class=\"button prev\" title=\"previous page\">&lt; prev</a><span class=\"button
+        prev\" title=\"previous page\">&lt; prev</span><span class=\"button pagenum\"><span
+        class='range'>1 - 100</span> of <span class=\"totalcount\">12421</span></span><a
+        href=\"/search/chc/apa?s=100&amp;bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200\"
+        class=\"button next\" title=\"next page\"> next &gt; </a><span class=\"button
+        next\" title=\"next page\"> next &gt; </span></span></span>\n              </div>\n
+        \           </div>\n          </div>\n          <section class=\"blurbs\">\n
+        \             \n          </section>\n\n          <div id=\"floater\">\n            <img
+        class=\"loading\" src=\"//www.craigslist.org/images/animated-spinny.gif\"
+        alt=\"\">\n            <img class=\"payload\" src=\"//www.craigslist.org/images/animated-spinny.gif\"
+        alt=\"\">\n          </div>\n        </div>\n      </div>\n      \n      <footer>\n
+        \   \n            <span class=\"rss\">\n                <a class=\"l\" href=\"http://chicago.craigslist.org/search/chc/apa?bathrooms=1&amp;bedrooms=2&amp;maxAsk=2400&amp;minAsk=1200&amp;format=rss\">RSS</a>\n
+        \               <a href=\"http://www.craigslist.org/about/rss\">(?)</a><br>\n
+        \           </span>\n            \n    <ul class=\"clfooter\">\n        <li>&copy;
+        2015 <span class=\"desktop\">craigslist</span><span class=\"mobile\">CL</span></li>\n
+        \       <li><a href=\"//www.craigslist.org/about/help/\">help</a></li>\n        <li><a
+        href=\"//www.craigslist.org/about/scams\">safety</a></li>\n        <li class=\"desktop\"><a
+        href=\"//www.craigslist.org/about/privacy.policy\">privacy</a></li>\n        <li
+        class=\"desktop\"><a href=\"https://forums.craigslist.org/?forumID=8\">feedback</a></li>\n
+        \       <li class=\"desktop\"><a href=\"//www.craigslist.org/about/craigslist_is_hiring\">cl
+        jobs</a></li>\n        <li><a href=\"//www.craigslist.org/about/terms.of.use\">terms</a></li>\n
+        \       <li><a href=\"//www.craigslist.org/about/\">about</a></li>\n        <li
+        class=\"fsel desktop linklike\" data-mode=\"mobile\">mobile</li>\n        <li
+        class=\"fsel mobile linklike\" data-mode=\"regular\">desktop</li>\n    </ul>\n</footer>\n
+        \   </article>\n    <script src=\"//www.craigslist.org/js/general-concat.min.js?v=7842af8e389ecaa0f797b4c0712b6255\"
+        type=\"text/javascript\" ></script>\n    <script type=\"text/javascript\"><!--\n
+        \       var iframe = document.createElement('iframe');\n        iframe.style.display
+        = 'none';\n        iframe.src = '//www.' + CL.url.baseDomain + '/static/localstorage.html?v=51a29e41f8e978141e4085ed4a77d170';\n
+        \       document.body.insertBefore(iframe, null);\n    --></script>\n    <script
+        type=\"text/template\" id=\"clustertemplate\">\n    <li class=\"posting {visited}\"
+        data-id=\"{PostingID}\">\n        <img src=\"{ImageThumb}\">\n        <div
+        class=\"housing_bubble_banner\">\n         <span class=\"{hasPrice}price\">{currencySymbol}{Ask}</span>\n
+        \        <span class=\"bedrooms\">{BedroomsContent}</span>\n         <span
+        class=\"postingtitle\"><a>{PostingTitle}</a></span>\n        </div>\n    </li>\n</script>\n<script
+        type=\"text/template\" id=\"postingtemplate\">\n    <div class=\"viewcontainer
+        pics loading\">\n        <div class=\"backtolist\">\n            <button class=\"back\">&lt;</button>
+        back to posting list\n        </div>\n        <div class=\"title\">\n            <span
+        class=\"star\" data-pid=\"{PostingID}\"></span>\n            <span class=\"postingtitle\"><a
+        href=\"{PostingURL}\" target=\"_blank\">{PostingTitle}</a></span>\n            <div>\n
+        \               <span class=\"{hasPrice}price\">{currencySymbol}{Ask}</span>\n
+        \               <span class=\"bedrooms\">{BedroomsContent}</span>\n            </div>\n
+        \       </div>\n        <hr style=\"clear:both\">\n        <div class=\"picscontainer\">\n
+        \           <div class=\"slidernav\">\n                <button class=\"back\"
+        disabled=\"disabled\">&lt;</button><span class=\"sliderinfo\"></span><button
+        class=\"forward\">&gt;</button>\n            </div>\n            <div class=\"swipe\">\n
+        \               <div class=\"swipe-wrap\">\n                    <img class=\"loading\"
+        src=\"//www.craigslist.org/images/animated-spinny.gif\" alt=\"\">\n                </div>\n
+        \           </div>\n        </div>\n        <div class=\"infocontainer\"></div>\n
+        \       <hr style=\"clear:both\">\n        <abbr class=\"date timeago\" title=\"{isoPostedDate}\">{humanPostedDate}</abbr>\n
+        \       <a class=\"viewpostinglink\" href=\"{PostingURL}\" target=\"_blank\">view
+        posting</a>\n        <div class=\"contenttoggle\">\n            <a class=\"moreinfo\">more
+        info</a>\n            <a class=\"showpics\">show images</a>\n        </div>\n
+        \   </div>\n</script>\n<script type=\"text/template\" id=\"popuptemplate\">\n
+        \   <div id=\"mapbubble\" class=\"posting\">\n        <ul id=\"clusterbubble\"></ul>\n
+        \       <div id=\"postbubble\"></div>\n    </div>\n</script>\n<script src=\"//www.craigslist.org/js/leaflet-concat.min.js?v=8b750e9549f9a943208e84a25a1e2ee8\"
+        type=\"text/javascript\" ></script>\n    <script src=\"//www.craigslist.org/js/tocs-concat.min.js?v=fa712fc83f1604a755f269b3d3b0e1f9\"
+        type=\"text/javascript\" ></script>\n</body>\n</html>"
+    http_version: 
+  recorded_at: Sat, 10 Jan 2015 23:00:14 GMT
+recorded_with: VCR 2.9.3
